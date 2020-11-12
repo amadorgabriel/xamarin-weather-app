@@ -66,14 +66,108 @@ namespace WeatherApp.Droid
 			}
 		}
 		
-		public partial class Id
+		public partial class Drawable
 		{
 			
 			// aapt resource value: 0x7F020000
-			public const int sliding_tabs = 2130837504;
+			public const int add = 2130837504;
 			
 			// aapt resource value: 0x7F020001
-			public const int toolbar = 2130837505;
+			public const int bg = 2130837505;
+			
+			// aapt resource value: 0x7F020002
+			public const int cloud = 2130837506;
+			
+			// aapt resource value: 0x7F020003
+			public const int cloudiness = 2130837507;
+			
+			// aapt resource value: 0x7F020004
+			public const int gauge = 2130837508;
+			
+			// aapt resource value: 0x7F020005
+			public const int humidity = 2130837509;
+			
+			// aapt resource value: 0x7F020006
+			public const int menu = 2130837510;
+			
+			// aapt resource value: 0x7F020007
+			public const int overlay = 2130837511;
+			
+			// aapt resource value: 0x7F020008
+			public const int w01d = 2130837512;
+			
+			// aapt resource value: 0x7F020009
+			public const int w01n = 2130837513;
+			
+			// aapt resource value: 0x7F02000A
+			public const int w02d = 2130837514;
+			
+			// aapt resource value: 0x7F02000B
+			public const int w02n = 2130837515;
+			
+			// aapt resource value: 0x7F02000C
+			public const int w03d = 2130837516;
+			
+			// aapt resource value: 0x7F02000D
+			public const int w03n = 2130837517;
+			
+			// aapt resource value: 0x7F02000E
+			public const int w04d = 2130837518;
+			
+			// aapt resource value: 0x7F02000F
+			public const int w04n = 2130837519;
+			
+			// aapt resource value: 0x7F020010
+			public const int w09d = 2130837520;
+			
+			// aapt resource value: 0x7F020011
+			public const int w09n = 2130837521;
+			
+			// aapt resource value: 0x7F020012
+			public const int w10d = 2130837522;
+			
+			// aapt resource value: 0x7F020013
+			public const int w10n = 2130837523;
+			
+			// aapt resource value: 0x7F020014
+			public const int w11d = 2130837524;
+			
+			// aapt resource value: 0x7F020015
+			public const int w11n = 2130837525;
+			
+			// aapt resource value: 0x7F020016
+			public const int w13d = 2130837526;
+			
+			// aapt resource value: 0x7F020017
+			public const int w13n = 2130837527;
+			
+			// aapt resource value: 0x7F020018
+			public const int w50d = 2130837528;
+			
+			// aapt resource value: 0x7F020019
+			public const int w50n = 2130837529;
+			
+			// aapt resource value: 0x7F02001A
+			public const int wind = 2130837530;
+			
+			static Drawable()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Drawable()
+			{
+			}
+		}
+		
+		public partial class Id
+		{
+			
+			// aapt resource value: 0x7F030000
+			public const int sliding_tabs = 2130903040;
+			
+			// aapt resource value: 0x7F030001
+			public const int toolbar = 2130903041;
 			
 			static Id()
 			{
@@ -88,11 +182,11 @@ namespace WeatherApp.Droid
 		public partial class Layout
 		{
 			
-			// aapt resource value: 0x7F030000
-			public const int Tabbar = 2130903040;
+			// aapt resource value: 0x7F040000
+			public const int Tabbar = 2130968576;
 			
-			// aapt resource value: 0x7F030001
-			public const int Toolbar = 2130903041;
+			// aapt resource value: 0x7F040001
+			public const int Toolbar = 2130968577;
 			
 			static Layout()
 			{
@@ -107,14 +201,14 @@ namespace WeatherApp.Droid
 		public partial class Mipmap
 		{
 			
-			// aapt resource value: 0x7F040000
-			public const int icon = 2130968576;
+			// aapt resource value: 0x7F050000
+			public const int icon = 2131034112;
 			
-			// aapt resource value: 0x7F040001
-			public const int icon_round = 2130968577;
+			// aapt resource value: 0x7F050001
+			public const int icon_round = 2131034113;
 			
-			// aapt resource value: 0x7F040002
-			public const int launcher_foreground = 2130968578;
+			// aapt resource value: 0x7F050002
+			public const int launcher_foreground = 2131034114;
 			
 			static Mipmap()
 			{
@@ -129,14 +223,14 @@ namespace WeatherApp.Droid
 		public partial class Style
 		{
 			
-			// aapt resource value: 0x7F050000
-			public const int AppCompatDialogStyle = 2131034112;
+			// aapt resource value: 0x7F060000
+			public const int AppCompatDialogStyle = 2131099648;
 			
-			// aapt resource value: 0x7F050001
-			public const int MainTheme = 2131034113;
+			// aapt resource value: 0x7F060001
+			public const int MainTheme = 2131099649;
 			
-			// aapt resource value: 0x7F050002
-			public const int MainTheme_Base = 2131034114;
+			// aapt resource value: 0x7F060002
+			public const int MainTheme_Base = 2131099650;
 			
 			static Style()
 			{
