@@ -48,7 +48,7 @@ namespace WeatherApp.Views
 
                 }catch(Exception exe)
                 {
-
+                    //ADD TRATAMENTO
                 }
             }
         }
