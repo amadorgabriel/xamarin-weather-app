@@ -33,6 +33,7 @@ namespace WeatherApp.Views
             {
                 try
                 {
+                    //Desserializar JSON para obj Weather
                     var weatherInfo = JsonConvert.DeserializeObject<WeatherInfo>(result.Response);
                     descriptionTxt.Text = weatherInfo.weather[0].description.ToUpper();
                     iconImg.Source = $"w{weatherInfo.weather[0].icon}";
@@ -47,7 +48,7 @@ namespace WeatherApp.Views
                     dateTxt.Text = dt.ToString("dddd, MM, dd").ToUpper();
 
                     GetForecast();
-                    d
+                    
                 }catch(Exception exe)
                 {
                     await DisplayAlert("Weather Info", exe.Message, "OK");

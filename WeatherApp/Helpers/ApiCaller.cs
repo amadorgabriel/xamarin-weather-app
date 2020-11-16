@@ -11,6 +11,7 @@ namespace WeatherApp.Helpers
     {
         public static async Task<ApiResponse> Get(string url, string authId = null)
         {
+            //Instanciar HttpClient
             using( var client = new HttpClient())
             {
                 if (!string.IsNullOrEmpty(authId))
@@ -18,10 +19,14 @@ namespace WeatherApp.Helpers
                     client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Authorization", authId);
                 }
 
+                //Gerar Requisição
                 var request = await client.GetAsync(url);
+
                 if (request.IsSuccessStatusCode)
                 {
+                    //Retornar conteudo da request
                     return new ApiResponse {Response = await request.Content.ReadAsStringAsync()};
+
                 }
                 else
                 {
