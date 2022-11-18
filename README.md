@@ -32,7 +32,7 @@ Projeto que desenvolvi com intuito de treinar meu conhecimento sobre a tecnologi
 - Android, IOS.
 
 ## :rocket: Tecnologias
-:heavy_check_mark: Puro e total Xamarin Forms através do C#.
+:heavy_check_mark: Xamarin Forms C#.
 
 ## :memo: Licença & Créditos
 Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
